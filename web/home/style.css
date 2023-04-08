@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: DWFutura, sans-serif;
 }
 body{
     height: 2000px;
@@ -48,4 +49,85 @@ body{
     margin-left: 457px;
     width: 600px;
     justify-content: space-around;
+}
+.ỉntroduce{
+    position: relative;
+}
+.introduce img{
+    width: 100%;
+}
+.content-introduce{
+    position: absolute;
+    /* top: 146px; */
+    bottom: 60px;
+    right: 158px;
+    text-align: -webkit-center;;
+}
+.content-introduce p:first-of-type{
+    font-weight: 300;
+    font-size: 62px;
+    margin-bottom: 20px;
+    letter-spacing: 2.7px;
+    line-height: 1.4;
+    word-break: break-word;
+}
+.item-2-intro{
+    font-size: 20px;
+    letter-spacing: 2.7px;
+    line-height: 1.4;
+    word-break: break-word;
+
+
+}
+.item-3-intro{
+    width: fit-content;
+    font-size: 1.6rem;
+    padding: .6rem 4.6rem;
+    border: solid 1px;
+    text-align: center;
+    cursor: pointer;
+    word-break: break-word;
+    letter-spacing: 2.7px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+.pay{
+    height: 65px;
+    width: 100%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+}
+.pay-content{
+    display: flex;
+    /* padding: 0 40px; */
+    width: 1007px;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-pay{
+    width: 158px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+.product{
+    margin: 0 40px;
+    position: relative;
+}
+.shop-gift-pack{
+    position: absolute;
+    width: 317px;
+    bottom: 50%;
+    right: 60px;
+}
+.shop-gift-pack p:first-of-type{
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+.shop-gift-pack p:nth-of-type(2){
+    width: fit-content;
+    padding: 10px 48px;
+    background-color: black;
+    color: white;
 }
