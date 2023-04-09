@@ -54,10 +54,14 @@ body{
     font-size: 22px;
 }
 .header-right{
+    cursor: pointer;
     width: 130px;
     display: flex;
     justify-content: space-around;
     font-size: 22px;
+}
+.header-right a{
+    color: white;
 }
 .header-menu{
     cursor: pointer;
@@ -183,8 +187,14 @@ body{
     padding: 15px;
     background-color: #dddddd;
 }
+.item-watch-forher i{
+    cursor: pointer;
+}
 .item-watch-forher img{
     width: 100%;
+}
+.pay-item{
+    cursor: pointer;
 }
 .item-watch-forher i{
     position: relative;
