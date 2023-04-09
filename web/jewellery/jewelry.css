@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+container {
+    width: 100%;
+    height: 1000px;
+}
+.bg-b{
+    background-color:#000;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100%;
+    height: 118px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    
+    color: white;
+    
+}
+.header-center{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1.6;
+
+   
+}
+.header-left{
+    margin-left: 20px;
+    width: 143px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+}
+.header-right{
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+}
+.header-menu{
+    cursor: pointer;
+    display: flex;
+    margin-left: 336px;
+    width: 852px;
+    justify-content: space-around;
+}
+
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
+    background-color:  transparent;}
+
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active{
+        background-color:  transparent;
+}
+.dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
+    color: #fff;
+    background-color: transparent;
+}
+.dropdown-menu li{
+    margin-top: 10px;
+}
+
+.para_topic {
+    font-weight: bold;
+    padding-top: 10px;
+    margin: 2px;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+.banner img {
+    width: 100%;
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: #f6f6f6;
+    margin-top: -3px;
+}
+
+nav .nav_pic1 {
+    padding-left: 250px;
+}
+
+nav .nav_pic2 {
+    padding-left: 250px;
+}
+
+nav .nav_pic3 {
+    padding-left: 250px;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+aside {
+    margin-top: 105px;
+    width: 80%;
+    height: 2500px;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* ///////////////////////////// */
+
+
+/* ////////////////////////////// */
+
+.article_1 {
+    display: block;
+    padding-top: 10px;
+}
+
+.pic1 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+}
+
+.pic1 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 50px;
+    transition: width 1s;
+}
+
+.pic1 img:hover {
+    width: 95%;
+}
+
+.cost_pic1 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic1 {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic2 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic2 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 90px;
+    transition: width 1s;
+}
+
+.pic2 img:hover {
+    width: 95%;
+}
+
+.name-jewelry_pic2 {
+    width: 70%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.pic3 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic3 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 50px;
+    transition: width 1s;
+}
+
+.pic3 img:hover {
+    width: 95%;
+}
+
+.cost_pic3 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic3 {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic4 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic4 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 50px;
+    transition: width 1s;
+}
+
+.pic4 img:hover {
+    width: 95%;
+}
+
+.cost_pic4 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic4 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+
+/* ////////////////////////////// */
+
+.article_2 {
+    display: block;
+    padding-top: 480px;
+}
+
+.pic5 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+}
+
+.pic5 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 40px;
+    transition: width 1s;
+}
+
+.pic5 img:hover {
+    width: 95%;
+}
+
+.cost_pic5 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic5 {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic6 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic6 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 70px;
+    transition: width 1s;
+}
+
+.pic6 img:hover {
+    width: 95%;
+}
+
+.cost_pic6 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic6 {
+    margin-top: 35px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic7 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic7 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 60px;
+    transition: width 1s;
+}
+
+.pic7 img:hover {
+    width: 95%;
+}
+
+.cost_pic7 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic7 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic8 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic8 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 35px;
+    transition: width 1s;
+}
+
+.pic8 img:hover {
+    width: 95%;
+}
+
+.cost_pic8 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic8 {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+
+/* ////////////////////////////// */
+
+.pic9 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+}
+
+.pic9 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 40px;
+    transition: width 1s;
+}
+
+.pic9 img:hover {
+    width: 95%;
+}
+
+.cost_pic9 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic9 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic10 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic10 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 45px;
+    transition: width 1s;
+}
+
+.pic10 img:hover {
+    width: 95%;
+}
+
+.cost_pic10 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic10 {
+    margin-top: 75px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic11 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic11 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 40px;
+    transition: width 1s;
+}
+
+.pic11 img:hover {
+    width: 95%;
+}
+
+.cost_pic11 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic11 {
+    margin-top: 70px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic12 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic12 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 30px;
+    transition: width 1s;
+}
+
+.pic12 img:hover {
+    width: 95%;
+}
+
+.cost_pic12 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic12 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic13 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+}
+
+.pic13 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 45px;
+    transition: width 1s;
+}
+
+.pic13 img:hover {
+    width: 95%;
+}
+
+.cost_pic13 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic13 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic14 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic14 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 40px;
+    transition: width 1s;
+}
+
+.pic14 img:hover {
+    width: 95%;
+}
+
+.cost_pic14 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic14 {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic15 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic15 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 35px;
+    transition: width 1s;
+}
+
+.pic15 img:hover {
+    width: 95%;
+}
+
+.cost_pic15 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic15 {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.pic16 {
+    display: block;
+    width: 24%;
+    float: left;
+    height: 410px;
+    background-color: #f6f6f6;
+    margin-left: 15px;
+}
+
+.pic16 img {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 80px;
+    transition: width 1s;
+}
+
+.pic16 img:hover {
+    width: 95%;
+}
+
+.cost_pic16 {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.name-jewelry_pic16 {
+    margin-top: 85px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+.wrapper-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #dddddd;
+    clear: both;
+}
+
+.nation {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 86px;
+}
+
+.item :first-child {
+    font-size: 20px;
+}
+
+.item p {
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.item :not(:first-child) {
+    font-size: 13px;
+    word-break: break-word;
+    letter-spacing: 1.2px;
+}
+
+.nation i {
+    font-size: 25px;
+}
+
+.social-network {
+    margin-top: 50px;
+    margin-left: 80px;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
