@@ -173,6 +173,12 @@ body{
     padding: 15px;
     background-color: #dddddd;
 }
+.pay-item{
+    cursor: pointer;
+}
+.item-watch-forher i:nth-of-type(2){
+    cursor: pointer;
+}
 .item-watch-forher img{
     width: 100%;
 }
