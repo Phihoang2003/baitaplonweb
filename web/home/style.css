@@ -196,6 +196,9 @@ body{
 .pay-item{
     cursor: pointer;
 }
+.cost-watch-forher i{
+    cursor: pointer;
+}
 .item-watch-forher i{
     position: relative;
     /* right: 19px; */

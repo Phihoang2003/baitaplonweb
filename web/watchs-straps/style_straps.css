@@ -64,6 +64,9 @@ container {
     justify-content: space-around;
     font-size: 22px;
 }
+.header-right a{
+    color: white;
+}
 .header-menu{
     cursor: pointer;
     display: flex;

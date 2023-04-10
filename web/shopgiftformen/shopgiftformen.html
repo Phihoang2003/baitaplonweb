@@ -7,13 +7,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="./shopgiftformen.css">
 </head>
 
 <body>
     <div class="shopgift">
         <div class="wrapper-gift">
+            <div class="header">
+
+                <div class="header-left mt-20">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-comment"></i>
+                </div>
+                <div class="header-center mt-20">
+                    <p>DANIEL WELLINGTON</p>
+                </div>
+                <div class="header-right mt-20">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <a href="../cart/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+
+                <div class="header-menu">
+                    <div class="shop-gift">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle bg-b" type="button"
+                                id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                SHOP GIFTS
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" href="../shopgiftformen/shopgiftformen.html">GIFTS
+                                        FOR
+                                        MEN</a></li>
+                                <li><a class="dropdown-item" href="../shopgiftforher/giftforher.html">GIFT FOR WOMEN</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="watchs">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle bg-b" type="button"
+                                id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                WATCHS
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" href="../men-watch/men-watch.html">MEN'S WATCHS</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../woman-watch/woman-watch.html">WOMEN'S WATCH</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="watch-straps">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle bg-b" type="button"
+                                id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                WATCH STRAPS
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" href="../watchs-straps/watch-straps.html">WATCH
+                                        STRAPS</a></li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="shop-gift">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle bg-b" type="button"
+                                id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                ANIVERSITY
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item active" href="../for-him/for-him.html">GIFTS FOR HIM</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../for-her/forher.html">GIFT FOR HER</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p id="smarwatch-case">SMARTWATCH CASE</p>
+                </div>
+
+            </div>
             <div class="giftHim">
                 <img style="width: 100%;" src="./img-for-men/gifts-for-him.webp" alt="">
                 <div class="text-gift">
@@ -43,9 +138,12 @@
                             <p>PEPTITE LAVENDER</p>
                             <p class="circle-1"></p>
 
-                            <p class="cost-gift-forman">
-                                $209.00 USD
-                            </p>
+                            <div class="pay-item">
+                                <div class="cost-gift-forman">
+                                    209
+                                </div>
+                            </div>
+
                         </div>
 
                         <div class="item-gift-forman">
@@ -55,10 +153,13 @@
                             <p>PEPTITE LAVENDER</p>
                             <p class="circle-1"></p>
 
-                            <p class="cost-gift-forman">
-                                $209.00 USD
-                            </p>
+                            <div class="pay-item">
+                                <div class="cost-gift-forman">
+                                    500
+                                </div>
+                            </div>
                         </div>
+
 
 
                     </div>
@@ -73,52 +174,64 @@
                 </div>
 
                 <div class="watch-forher mt-30">
-                    <div class="item-watch-forher">
+                    <div class="item-watch-forher" data-product-id="5">
                         <img src="./img-for-men/clock1.webp" alt="">
                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                         <p>MOTHER OF PEARL</p>
-                        <p>PEPTITE LAVENDER</p>
+                        <p class="product-name">CLASSIC CORNWALL</p>
                         <p class="circle-1"></p>
 
-                        <p class="cost-watch-forher">
-                            $209.00 USD
-                        </p>
+                        <div class="pay-item">
+                            <div class="cost-watch-forher product-price">
+                                300
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-cart-plus add-to-cart-btn"></i>
                     </div>
 
-                    <div class="item-watch-forher">
+                    <div class="item-watch-forher" data-product-id="6">
                         <img src="./img-for-men/clock2.webp" alt="">
                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                         <p>MOTHER OF PEARL</p>
-                        <p>PEPTITE LAVENDER</p>
+                        <p class="product-name">CLASSIC ST MAWIS</p>
                         <p class="circle-1"></p>
 
-                        <p class="cost-watch-forher">
-                            $209.00 USD
-                        </p>
+                        <div class="pay-item">
+                            <div class="cost-watch-forher product-price">
+                                700
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-cart-plus add-to-cart-btn"></i>
                     </div>
 
-                    <div class="item-watch-forher">
+                    <div class="item-watch-forher" data-product-id="7">
                         <img src="./img-for-men/clock3.webp" alt="">
                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                         <p>MOTHER OF PEARL</p>
-                        <p>PEPTITE LAVENDER</p>
+                        <p class="product-name">CLASSIC SELLPHES</p>
                         <p class="circle-1"></p>
 
-                        <p class="cost-watch-forher">
-                            $209.00 USD
-                        </p>
+                        <div class="pay-item">
+                            <div class="cost-watch-forher product-price">
+                                800
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-cart-plus add-to-cart-btn"></i>
                     </div>
 
-                    <div class="item-watch-forher">
+                    <div class="item-watch-forher" data-product-id="8">
                         <img src="./img-for-men/clock4.webp" alt="">
                         <i class="fa fa-heart-o" aria-hidden="true"></i>
                         <p>MOTHER OF PEARL</p>
-                        <p>PEPTITE LAVENDER</p>
+                        <p class="product-name">CLASSIC PRISTOL</p>
                         <p class="circle-1"></p>
 
-                        <p class="cost-watch-forher">
-                            $209.00 USD
-                        </p>
+                        <div class="pay-item">
+                            <div class="cost-watch-forher product-price">
+                                900
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-cart-plus add-to-cart-btn"></i>
                     </div>
                 </div>
                 <p class="mt-30">FOR ME</p>
@@ -135,9 +248,12 @@
                             <p>PEPTITE LAVENDER</p>
                             <p class="circle-1"></p>
 
-                            <p class="cost-gift-forman">
-                                $209.00 USD
-                            </p>
+                            <div class="pay-item">
+                                <div class="cost-gift-forman">
+                                    200
+                                </div>
+                            </div>
+
                         </div>
 
                         <div class="item-gift-forman">
@@ -147,9 +263,12 @@
                             <p>PEPTITE LAVENDER</p>
                             <p class="circle-1"></p>
 
-                            <p class="cost-gift-forman">
-                                $209.00 USD
-                            </p>
+                            <div class="pay-item">
+                                <div class="cost-gift-forman">
+                                    300
+                                </div>
+                            </div>
+
                         </div>
 
 
@@ -171,6 +290,30 @@
             </div>
         </div>
     </div>
+    <div class="subcribe">
+        <div class="info-subcribe">
+            <p>JOIN THE DW MOVEMENT AND ENJOY 10% OFF YOUR FIRST ORDER</p>
+            <p>
+                Be the first to hear about exclusive offers, special editions, and new
+                launches from the Daniel Wellington community. Sign up today, and
+                you'll receive 10% off your first order.
+            </p>
+            <input type="text" placeholder="Email" />
+            <button>Subcribe</button>
+            <div class="text-subcribe">
+                <span class="text">
+                    By signing up, I confirm that I’m 16 years or older, that I want to
+                    receive personalised marketing by email and that I have read and
+                    understood Daniel Wellington’s Privacy Policy.
+                </span>
+            </div>
+        </div>
+    </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script src="../js/home.js"></script>
 
 </html>
