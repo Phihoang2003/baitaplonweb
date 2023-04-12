@@ -6,9 +6,9 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-container {
-    
-}
+ .m-b{
+    margin-bottom: 0;
+ }
 .h-100{
     height: 100%;
 }
@@ -106,6 +106,7 @@ aside {
     
 }
 .watch-men-left{
+    margin-right: 812px;
     width: 111px;
     display: flex;
     justify-content: space-around;
@@ -187,6 +188,7 @@ aside {
     margin-right:15px
 }
 .wrapper-watchs{
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
