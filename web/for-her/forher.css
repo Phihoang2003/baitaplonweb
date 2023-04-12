@@ -167,6 +167,12 @@ body{
 .item-watch-forher p{
     margin-top: 10px;
 }
+.pay-item{
+    cursor: pointer;
+}
+.item-watch-forher i:nth-of-type(2){
+    cursor: pointer;
+}
 .item p:not(:nth-of-type(1)){
     font-size: 12px;
     word-break: break-word;
@@ -209,7 +215,7 @@ body{
     color: #fff;
   }
   .subcribe {
-    margin-top: 1629px;
+    margin-top: 1674px;
     display: flex;
     justify-content: center;
     height: 394px;
