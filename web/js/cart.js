@@ -114,7 +114,6 @@ document.querySelectorAll(".btn-delete").forEach(function (btn) {
 // cachkhac
 
 $(document).ready(function () {
-  var i = 1;
   $("#btnModal").click(function () {
     $("#myModal").modal();
   });
@@ -127,23 +126,18 @@ $(document).ready(function () {
     var email = $("#txtEmail").val();
     var dt = $("#txtdt").val();
 
-    var them =
-      "<tr><td>" +
-      i++ +
-      "</td><td>" +
-      ten +
-      "</td><td>" +
-      dc +
-      "</td><td>" +
-      ngay +
-      "</td><td>" +
-      gio +
-      "</td><td>" +
-      email;
-    +"</td><td>" + dt + "</td><>";
-    ("</td></tr>");
+    var cartInfo = {
+      ten: ten,
+      dc: dc,
+      ngay: ngay,
+      gio: gio,
+      email: email,
+      dt: dt,
+    };
+    localStorage.setItem("cartInfo", JSON.stringify(cartInfo));
 
-    $("table tbody").append(them);
+    // Hiển thị thông báo cho người dùng biết sản phẩm đã được thêm vào giỏ hàng
+    alert("Sản phẩm đã được thêm vào giỏ hàng.");
   });
   function kiemTraTen() {
     var kt = /^[A-Z][a-zA-Z]+(\s[A-Z][a-zA-Z]+)*$/;
@@ -186,7 +180,7 @@ $(document).ready(function () {
       $("#loiDC").html(" *Chữ cái đầu của mỗi từ phải viết hoa !!");
       return false;
     }
-    $("#loiDCx").html("*");
+    $("#loiDC").html("*");
     return true;
   }
   $("#txtDC").blur(kiemTraDC);
