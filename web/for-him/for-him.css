@@ -86,7 +86,7 @@ body{
     font-size: 22px;
 }
 .header-right{
-    width: 130px;
+    width: 256px;
     display: flex;
     justify-content: space-around;
     font-size: 22px;
@@ -111,6 +111,11 @@ body{
 .dropdown-menu li{
     margin-top: 10px;
 } 
+.btn-primary {
+    color: #000;
+    background-color: #fff;
+    border-color: #0d6efd;
+}
 /*section1*/
 .section1{
     display: flex;
