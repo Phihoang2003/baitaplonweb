@@ -206,6 +206,25 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.next-watch-men{
+    margin: 0 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dddddd;
+    height: 40px;
+}
+.number-next{
+    width: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.number-1-next{
+
+    text-decoration: underline;
+}
 .number-1-next{
 
     text-decoration: underline;
@@ -217,3 +236,94 @@ body{
 .right-arrow{
     margin-right:15px
 }
+.find-more-wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.find-more-content{
+    width: 310px;
+
+}
+.pro-find-more{
+    margin-top: 30px;
+}
+.text-find{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2.7px;
+    line-height: 1.4;
+    word-break: break-word;
+}
+.pro-find-more p{
+    padding: 12px 46px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+.info-subcribe {
+    width: 552px;
+    height: 320px;
+    color: #fff;
+  }
+  .subcribe {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 394px;
+    width: 100%;
+    background-color: #00081c;
+  }
+  .info-subcribe p:nth-child(1) {
+    letter-spacing: 2.7px;
+    font-size: 20px;
+    line-height: 1.6;
+    word-break: break-word;
+    text-align: center;
+  }
+  .info-subcribe p:nth-child(2) {
+    letter-spacing: 2.7px;
+    font-size: 20px;
+    letter-spacing: 1.6;
+    line-height: 1.6;
+    font-size: 14px;
+    text-align: end;
+  }
+  .info-subcribe input {
+    position: relative;
+    padding: 15px 50px 15px;
+    background-color: #00081c;
+    border: #fff 1px solid;
+  }
+  input::placeholder {
+    position: absolute;
+    left: 10px;
+    color: #fff;
+  }
+  .info-subcribe button {
+    font-size: 20px;
+    margin-left: 75px;
+  
+    color: #fff;
+    background-color: #00081c;
+    text-transform: uppercase;
+  }
+  
+  .text-subcribe {
+    display: flex;
+    /* display: inline-block; */
+    justify-content: center;
+    line-height: 1.6;
+  
+    /* text-indent: initial; */
+    text-align: -webkit-center;
+  }
+  .text {
+    font-size: 11px;
+    display: block;
+    width: 327px;
+    height: 48px;
+    margin-top: 15px;
+  }
