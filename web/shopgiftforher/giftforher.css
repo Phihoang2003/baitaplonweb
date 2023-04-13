@@ -16,6 +16,9 @@
 .ml-40{
     margin-left: 40px;
 }
+.mt-0{
+    margin-top: 0px !important;
+}
 body{
     height: 4000px;
 }
@@ -228,7 +231,7 @@ body{
     margin-top: 10px;
 }
 .content-right-me-2 p{
-    margin-top: 10px;
+    
 }
 .text-for-girlfriend{
     margin-top: 30px;
@@ -258,6 +261,7 @@ body{
 }
 .item-watch-forher img{
     width: 100%;
+    height: 305.7px;
 }
 .pay-item{
     cursor: pointer;
