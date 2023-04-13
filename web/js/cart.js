@@ -137,8 +137,9 @@ $(document).ready(function () {
     localStorage.setItem("cartInfo", JSON.stringify(cartInfo));
 
     // Hiển thị thông báo cho người dùng biết sản phẩm đã được thêm vào giỏ hàng
-    alert("Sản phẩm đã được thêm vào giỏ hàng.");
+    alert("Thông tin đã được lưu.");
   });
+  // su dung chuoi regex bieu thuc chinh quy de kiem tra
   function kiemTraTen() {
     var kt = /^[A-Z][a-zA-Z]+(\s[A-Z][a-zA-Z]+)*$/;
     ten = $("#txtTen").val();
