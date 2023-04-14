@@ -110,8 +110,7 @@ document.querySelectorAll(".btn-delete").forEach(function (btn) {
     removeCartItem(productId);
   });
 });
-
-// cachkhac
+//Thong tin dat hang
 
 $(document).ready(function () {
   $("#btnModal").click(function () {
