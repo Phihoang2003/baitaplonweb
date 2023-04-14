@@ -105,7 +105,7 @@ body{
 .content-introduce{
     position: absolute;
     /* top: 146px; */
-    bottom: -80px;
+    top: 50%;
     right: 158px;
     text-align: -webkit-center;;
 }
