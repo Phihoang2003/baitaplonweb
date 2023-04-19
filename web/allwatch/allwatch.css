@@ -109,7 +109,7 @@ body{
     position: absolute;
     top: 50%;
     left: 136px;
-    color: white;
+    color:#000;
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 2.9px;
@@ -135,7 +135,7 @@ body{
 }
 .item-pay{
    
-    width: 179px;
+    width: 206px;
     display: flex;  
     justify-content: space-around;
     align-items: center;
@@ -147,7 +147,7 @@ body{
     margin-bottom: 40px;
 }
 .container-watch-men{
-    margin: 0 50px;
+    margin: 50px 50px;
     display: flex;
     justify-content: space-between;
     
