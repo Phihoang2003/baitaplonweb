@@ -6,6 +6,9 @@
 body{
     height: 3000px;
 }
+.cl-w{
+    color: white;
+}
 .mt{
     margin-top: 50px;
 }
