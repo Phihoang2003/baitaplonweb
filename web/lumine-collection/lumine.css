@@ -330,3 +330,56 @@ body{
     height: 48px;
     margin-top: 15px;
   }
+
+  .wrapper-footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer {
+    background-color: #dddddd;
+    clear: both;
+    height: 520px;
+   
+}
+
+.nation {
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 86px;
+}
+
+.item :first-child {
+    font-size: 20px;
+}
+
+.item p {
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+.item :not(:first-child) {
+    font-size: 13px;
+    word-break: break-word;
+    letter-spacing: 1.2px;
+}
+
+.nation i {
+    font-size: 25px;
+}
+
+.social-network {
+    margin-top: 42px;
+    margin-left: 80px;
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
