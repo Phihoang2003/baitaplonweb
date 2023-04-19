@@ -95,3 +95,54 @@ body{
     background-color: #fff;
     border-color: #0d6efd;
 }
+.watch-banner{
+    margin-top: 118px;
+    height: 450px;
+    position: relative;
+}
+.watch-banner img{
+    
+    width: 100%;
+}
+.watch-banner p{
+    
+    position: absolute;
+    top: 50%;
+    left: 136px;
+    color:#fff;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2.9px;
+    line-height: 1.4;
+}
+.pay{
+    margin-top: 72px;
+    height: 65px;
+    width: 100%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: center;
+}
+.pay-content{
+    display: flex;
+    /* padding: 0 40px; */
+    width: 1007px;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-pay p{
+    margin-bottom: 0;
+}
+.item-pay{
+   
+    width: 206px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+.text{
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
