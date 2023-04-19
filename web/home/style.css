@@ -7,6 +7,12 @@
 body{
     height: 3000px;
 }
+.l-58{
+    left: 58px !important;
+}
+.r-890{
+    right: 890px !important;
+}
 .cl-w{
     color: white;
 }
@@ -105,17 +111,38 @@ body{
 .content-introduce{
     position: absolute;
     /* top: 146px; */
-    top: 50%;
+    top: 40%;
     right: 158px;
     text-align: -webkit-center;;
 }
+.banner-2{
+
+}
 .content-introduce p:first-of-type{
     font-weight: 300;
-    font-size: 62px;
+    font-size: 33px;
     margin-bottom: 20px;
-    letter-spacing: 2.7px;
+    letter-spacing: 2px;
     line-height: 1.4;
     word-break: break-word;
+}
+.content-introduce-2{
+    position: absolute;
+    
+    top: 40%;
+    
+    right: 204px;
+    text-align: -webkit-center;
+    color: white;
+}
+.content-introduce-2 p:first-of-type{
+    font-weight: 300;
+    font-size: 33px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    /* word-break: break-word; */
+    text-align: center;
 }
 .item-2-intro{
     font-size: 20px;
