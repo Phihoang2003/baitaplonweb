@@ -86,6 +86,7 @@ body{
     width: 256px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 22px;
 }
 .header-right a{

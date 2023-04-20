@@ -69,6 +69,7 @@ body{
     width: 256px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     font-size: 22px;
 }
 .header-right a{
@@ -80,6 +81,7 @@ body{
     margin-left: 336px;
     width: 852px;
     justify-content: space-around;
+    align-items: center;
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
     background-color:  transparent;}
