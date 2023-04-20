@@ -187,11 +187,13 @@ body{
 .pay-item{
     cursor: pointer;
 }
-.item-watch-forher i:nth-of-type(2){
+.item-watch-forher i{
     cursor: pointer;
 }
+
 .item-watch-forher img{
     width: 100%;
+    height: 298.5px;
 }
 .item-watch-forher i{
     position: relative;
