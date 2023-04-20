@@ -180,7 +180,7 @@ body{
 .pay-item{
     cursor: pointer;
 }
-.item-watch-forher i:nth-of-type(2){
+.item-watch-forher i{
     cursor: pointer;
 }
 .item p:not(:nth-of-type(1)){
