@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 2000px;
+    height: 2700px;
 }
 
 .cl-w{
@@ -16,11 +16,11 @@ body{
 .mt-30{
     margin-top: 30px;
 }
-.mt-30{
-    margin-top: 30px;
+.mt-85{
+    margin-top: 85px;
 }
-.mt-10{
-    margin-top: 10px;
+.mt-50{
+    margin-top: 50px;
 }
 .ml-40{
     margin-left: 40px;
@@ -132,7 +132,7 @@ body{
     justify-content: space-around;
 }
 .title-look{
-    font-size: 25px;
+    font-size: 21px;
     line-height: 1.4;
     letter-spacing: 2.7px;
     font-weight: 100;
@@ -166,7 +166,7 @@ body{
     height: 230px;
 }
 .text-watch-forher p:first-of-type{
-    font-size: 25px;
+    font-size: 21px;
     line-height: 1.4;
     letter-spacing: 2.7px;
     font-weight: 100;
@@ -224,7 +224,7 @@ body{
     color: #fff;
   }
   .subcribe {
-    margin-top: 1674px;
+    margin-top: 1760px;
     display: flex;
     justify-content: center;
     height: 394px;

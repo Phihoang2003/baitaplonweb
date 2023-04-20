@@ -14,7 +14,9 @@ body{
 body{
     height: 2000px;
 }
-
+.ml-30{
+    margin-left: 30px;
+}
 .cl-w{
     color: white;
 }

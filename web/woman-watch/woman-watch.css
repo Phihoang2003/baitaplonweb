@@ -142,7 +142,7 @@ body{
 }
 .item-pay{
    
-    width: 179px;
+    width: 206px;
     display: flex;  
     justify-content: space-around;
     align-items: center;
@@ -154,7 +154,7 @@ body{
     margin-bottom: 40px;
     font-style: italic;
     font-family: DWCaslonItalic;
-    font-size: 16px;
+    font-size: 14px;
 }
 .container-watch-men{
     margin: 0 50px;
@@ -246,6 +246,33 @@ body{
 .right-arrow{
     margin-right:15px
 }
+.find-more-wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.find-more-content{
+    width: 310px;
+
+}
+.pro-find-more{
+    margin-top: 30px;
+}
+.text-find{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2.7px;
+    line-height: 1.4;
+    word-break: break-word;
+}
+.pro-find-more p{
+    padding: 12px 46px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+}
 .info-subcribe {
     width: 552px;
     height: 320px;
@@ -304,7 +331,7 @@ body{
     text-align: -webkit-center;
   }
   .text {
-    font-size: 11px;
+    font-size: 14px;
     display: block;
     width: 327px;
     height: 48px;

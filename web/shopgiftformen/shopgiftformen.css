@@ -8,7 +8,9 @@
 body{
     height: 2000px;
 }
-
+.fz-23{
+    font-size: 23px;
+}
 .cl-w{
     color: white;
 }
@@ -138,7 +140,7 @@ body{
     height: 230px;
 }
 .for-boyfriend p:first-of-type{
-    font-size: 25px;
+    font-size: 23px;
     line-height: 1.4;
     letter-spacing: 2.7px;
     font-weight: 100;
