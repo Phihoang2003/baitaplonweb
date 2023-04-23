@@ -16,6 +16,14 @@ body{
     right: -7px;
     font-size: 13px;
 }
+.avatar{
+    width: 120px;
+}
+.avatar img{
+    border-radius: 100%;
+    width: 32%;
+    object-fit: cover;
+}
 .l-58{
     left: 58px !important;
 }

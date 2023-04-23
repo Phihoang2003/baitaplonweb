@@ -85,3 +85,20 @@ addToLoveButton.forEach(function (button) {
     loveNumber.innerText = `${loveItems.length}`;
   });
 });
+var loveNumber = document.querySelector(".love-number");
+var loveItems = JSON.parse(localStorage.getItem("loveItems")) || [];
+loveNumber.innerText = `${loveItems.length}`;
+
+//avatar
+var avatar = document.querySelector(".avatar");
+const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+console.log(isLoggedIn);
+if (isLoggedIn) {
+  avatar.innerHTML = `<img src="./img-home/avatar.jpg" alt="">`;
+} else {
+  avatar.innerHTML = `<a href="../login/login.html"><button type="button" class="btn btn-primary ">Đăng
+  nhập</button></a>`;
+}
+window.onbeforeunload = () => {
+  localStorage.setItem("isLoggedIn", false);
+};

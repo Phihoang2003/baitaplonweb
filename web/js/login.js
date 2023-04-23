@@ -58,8 +58,11 @@ $(document).ready(function () {
 
     if (enteredUserid == storedUserid && enteredPass == storedPass) {
       alert("You are logged in!");
+      localStorage.setItem("isLoggedIn", true);
+      window.location.replace("../home/index.html");
     } else {
       alert("Username and Password do not match!");
+      e.preventDefault();
     }
   });
 });
