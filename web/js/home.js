@@ -80,5 +80,8 @@ addToLoveButton.forEach(function (button) {
 
     // Hiển thị thông báo cho người dùng biết sản phẩm đã được thêm vào giỏ hàng
     alert("Sản phẩm yêu thích đã được thêm .");
+    var loveNumber = document.querySelector(".love-number");
+    loveItems = JSON.parse(localStorage.getItem("loveItems")) || [];
+    loveNumber.innerText = `${loveItems.length}`;
   });
 });
