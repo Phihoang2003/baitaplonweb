@@ -37,8 +37,15 @@ addToCartButton.forEach(function (button) {
 
     // Hiển thị thông báo cho người dùng biết sản phẩm đã được thêm vào giỏ hàng
     alert("Sản phẩm đã được thêm vào giỏ hàng.");
+    var shoppingNumber = document.querySelector(".shopping-number");
+    cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+    shoppingNumber.innerText = `${cartItems.length}`;
   });
 });
+//cart-shopping
+var shoppingNumber = document.querySelector(".shopping-number");
+cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+shoppingNumber.innerText = `${cartItems.length}`;
 //love-product
 var addToLoveButton = document.querySelectorAll(".add-to-love-btn");
 addToLoveButton.forEach(function (button) {
