@@ -94,11 +94,12 @@ var avatar = document.querySelector(".avatar");
 const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
 console.log(isLoggedIn);
 if (isLoggedIn) {
-  avatar.innerHTML = `<img src="./img-home/avatar.jpg" alt="">`;
+  avatar.innerHTML = `<img src="../img-avatar/avatar.jpg" alt="">`;
 } else {
   avatar.innerHTML = `<a href="../login/login.html"><button type="button" class="btn btn-primary ">Đăng
   nhập</button></a>`;
 }
-window.onbeforeunload = () => {
+
+window.addEventListener("unload", function (event) {
   localStorage.setItem("isLoggedIn", false);
-};
+});
