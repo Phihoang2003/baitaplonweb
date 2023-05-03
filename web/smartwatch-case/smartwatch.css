@@ -17,6 +17,15 @@ body{
     right: -7px;
     font-size: 13px;
 }
+.shopping-pro-btn{
+    position: relative
+}
+.shopping-number{
+    position: absolute;
+    top: 3px;
+    right: -8px;
+    font-size: 13px;
+}
 .avatar{
     width: 120px;
 }

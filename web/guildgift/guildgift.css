@@ -207,6 +207,9 @@ body{
     justify-content: space-between;
     width: 456px;
 }
+.gift-btn a{
+    text-decoration: none;
+}
 .gift-for-friend{
     margin-top: 30px;
     display: flex;

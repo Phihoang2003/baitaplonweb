@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0 auto;
+    
     font-family: 'Courier New', Courier, monospace;
 }
 .love-pro-btn{
@@ -12,6 +12,15 @@
     position: absolute;
     top: 3px;
     right: -7px;
+    font-size: 13px;
+}
+.shopping-pro-btn{
+    position: relative
+}
+.shopping-number{
+    position: absolute;
+    top: 3px;
+    right: -8px;
     font-size: 13px;
 }
 .avatar{
