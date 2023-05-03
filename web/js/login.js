@@ -49,7 +49,7 @@ $(document).ready(function () {
     localStorage.setItem("email", emailRegister);
   });
 
-  $("#login").submit(function () {
+  $("#login").submit(function (e) {
     var enteredUserid = $("#useridLog").val();
     var enteredPass = $("#pwdLog").val();
 

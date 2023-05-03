@@ -111,7 +111,8 @@ document.querySelectorAll(".btn-delete").forEach(function (btn) {
   });
 });
 //Thong tin dat hang
-
+var ngay = $("#txtNgay");
+console.log(ngay);
 $(document).ready(function () {
   $("#btnModal").click(function () {
     $("#myModal").modal();

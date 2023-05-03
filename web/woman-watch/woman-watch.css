@@ -7,7 +7,42 @@
 body{
     height: 3000px;
 }
-
+.love-pro-btn{
+    position: relative
+}
+.love-number{
+    position: absolute;
+    top: 3px;
+    right: -7px;
+    font-size: 13px;
+}
+.avatar{
+    width: 120px;
+}
+.avatar img{
+    border-radius: 100%;
+    width: 32%;
+    object-fit: cover;
+}
+.l-58{
+    left: 58px !important;
+}
+.r-890{
+    right: 890px !important;
+}
+.cl-w{
+    color: white;
+}
+.w-109{
+    width: 109px;
+}
+.bg-b{
+    background-color:#000;
+    
+}
+.mt-12{
+    margin-top: 12px;
+}
 .cl-w{
     color: white;
 }
