@@ -51,6 +51,15 @@ body{
 .mt-20{
     margin-top: 20px;
 }
+.shopping-pro-btn{
+    position: relative
+}
+.shopping-number{
+    position: absolute;
+    top: 3px;
+    right: -8px;
+    font-size: 13px;
+}
 .love-pro-btn{
     position: relative
 }
